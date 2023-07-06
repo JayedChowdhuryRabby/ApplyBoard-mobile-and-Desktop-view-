@@ -1,0 +1,187 @@
+ /* CSS for cards */
+ .image-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-row .image-container {
+  margin-right: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.image-row img {
+  max-width: 100%;
+  height: auto;
+  height: 300px;
+}
+
+.image-row .designation {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #FE7769;
+  padding: 5px 0;
+  font-size: 17px;
+}
+
+.image-row .designation1 {
+  position: absolute;
+  bottom: 0;
+  top: 302px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #FE7769;
+  padding: 5px 0;
+  font-size: 17px;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+  /* Co-Founders section */
+  .image-row.co-founders {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    justify-content: center;
+  }
+
+  .image-row.co-founders .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+    flex: 1;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  /* Co-Founders section */
+  .image-row.co-founders {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .image-row.co-founders .image-container {
+    margin-right: 0;
+    margin-bottom: 62px;
+    width: 100%;
+  }
+}
+
+
+ /* Desktop view */
+ @media (min-width: 768px) {
+  /* Leadership Teams section */
+  .image-row.leadership-teams {
+    padding-bottom: 100px;
+    padding-top: 30px;
+  }
+
+  .image-row.leadership-teams .image-container {
+    margin-right: 80px;
+    margin-bottom: 20px;
+    flex: 1;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  /* Leadership Teams section */
+  .image-row.leadership-teams {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .image-row.leadership-teams .image-container {
+    margin-right: 0;
+    margin-bottom: 70px;
+    width: 100%;
+  }
+}
+
+
+/* Desktop view */
+@media (min-width: 768px) {
+  /* Advisory Board section */
+  .image-row.advisory-board {
+    padding-bottom: 100px;
+    padding-top: 30px;
+  }
+
+  .image-row.advisory-board .image-container {
+    margin-right: 10px; /* Adjust the margin value as needed */
+    margin-bottom: 20px;
+    flex: 1;
+  }
+
+  .image-row.advisory-board .col-md-6 {
+   margin-right: 150px;
+  }
+
+  .image-row.advisory-board .image-container {
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .image-row.advisory-board .image-container.animate__fadeIn {
+    animation-name: fadeIn;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  /* Advisory Board section */
+  .image-row.advisory-board {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .image-row.advisory-board .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .image-row.advisory-board .col-md-6 {
+  margin-left: -60px;
+    top: 50px;
+  }
+
+  .image-row.advisory-board .image-container {
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .image-row.advisory-board .image-container.animate__fadeIn {
+    animation-name: fadeIn;
+  }
+}

@@ -1,0 +1,97 @@
+* {
+  font-weight: 550;
+}
+.navbar .navbar-brand {
+    color: red;
+  }
+  .navbar .nav-link.dropdown-toggle {
+    color: red !important; /* Replace 'red' with the color of your choice */
+  }
+  .btnL:hover {
+    background-color: #ffffff;
+  }
+  .navbar .nav-item .nav-link {
+    color: red; /* Replace 'red' with the color of your choice */
+  }
+
+  /* Mobile-specific styles */
+  @media (max-width: 576px) {
+    .navbar-collapse {
+      justify-content: center;
+    }
+
+    .navbar-toggler {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-toggler-icon {
+      width: 30px;
+      height: 30px;
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .navbar-nav .nav-item {
+      width: 100%;
+      text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+      padding: 10px;
+    }
+
+    .dropdown-menu {
+      position: relative;
+    }
+
+    .dropdown-menu::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 0 10px 10px 10px;
+      border-style: solid;
+      border-color: transparent transparent #fff transparent;
+    }
+  }
+
+ /* -----------footer starts here----------------- */
+ footer  {
+    padding: 20px 0;
+    width: 100%;
+    color: rgb(223, 83, 32);
+    background-color: #fabbb0;
+    font-weight: 600;
+  }
+footer .container{
+  display: flex;
+}
+.footer{
+  padding-top: 50px;
+    border: #fff;
+}
+ .fot{
+  height: 250px !important;
+  width:100% !important;
+ }
+ footer {
+  height: auto;
+  overflow: hidden;
+}
+  /* Mobile-specific styles */
+@media (max-width: 576px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .col {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-md-3 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

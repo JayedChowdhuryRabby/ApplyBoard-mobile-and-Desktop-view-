@@ -1,0 +1,360 @@
+* {
+    font-weight: 550;
+  }
+/*-----1at sec-----*/
+
+.Rsec {
+    position: relative;
+    background-image: url(/style/student-pg/Path12@2x.png);
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .Rsec h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  .Rsec p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 40px;
+  }
+  
+  .Rsec   .buttonPink {
+    background-color: #f1097d; /* White background */
+    color: #ffffff; /* Black text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding for better visual */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: box-shadow 0.3s ease; /* Add a smooth transition on hover */ 
+    /* Additional styles to make it sit on the website */
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .Rsec img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /*-mobile view---*/
+  @media (max-width: 767px) {
+    .Rsec .row {
+      flex-direction: column;
+    }
+    .Rsec img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  
+    }
+    .Rsec .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  /*----2nd sec-----*/
+  /* Mobile-specific styles */
+@media (max-width: 576px) {
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image {
+    margin-bottom: 10px;
+  }
+
+  .imgH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cardH-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardH {
+    margin-bottom: 20px;
+  }
+
+  .w,
+  .m,
+  .L {
+    text-align: center;
+  }
+}
+
+/* Desktop-specific styles */
+@media (min-width: 577px) {
+  .image-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgH1 {
+    margin-left: 20px;
+  }
+
+  .cardH-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cardH {
+    width: 30%;
+    margin: 0;
+  }
+}
+/* -------2nd sec--------*/
+
+/* Mobile-specific styles */
+@media (max-width: 576px) {
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image {
+    margin-bottom: 10px;
+  }
+
+  .imgH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+.cardH-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.cardH {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.cardH h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: tomato;
+}
+.w {
+  text-align: center;
+  color: #f1097d;
+}
+
+.cardH p {
+  font-size: 16px;
+  color: #333333;
+}
+
+@media (max-width: 767px) {
+  .cardH {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .cardH-container {
+    justify-content: flex-start;
+  }
+}
+
+/*----third sec------*/
+
+.Csec {
+  position: relative;
+  background-image: url(/style/student-pg/Path12@2x.png);
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+}
+ .picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .picture {
+    width: 300px;
+    text-align: center;
+  }
+
+  .picture img {
+    width: 100%;
+    height: auto;
+  }
+
+  .picture h4 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .picture p {
+    font-size: 19px;
+    color: #ffffff;
+    padding-top: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .picture {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  /*--4th sec---*/
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgImpact {
+  max-width: 100%;
+  text-align: center;
+}
+
+.imgImpact img {
+  max-width: 70%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+ 
+
+
+/*-- 5th sec---*/
+
+.cardC-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.cardC {
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cardC:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardC-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.m{
+  color: tomato;
+  font-size: 25px;
+}
+
+.w{
+  font-size: 50px;
+  color: #f37090;
+
+
+}
+
+@media (max-width: 767px) {
+  .cardC {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*------------6th sec----------*/
+.backgroundPic {
+  background-color: #ffe3e3;
+  padding: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.w {
+  margin-bottom: 10px;
+}
+
+.L {
+  font-size: 16px;
+}
+
+.sit-on-button {
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Add padding for better visual */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: box-shadow 0.3s ease; /* Add a smooth transition on hover */ 
+  /* Additional styles to make it sit on the website */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sit-on-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sit-on-button .imgLogo {
+  max-width: 15%;
+  height: auto;
+}
+
+.L {
+  color: #000000;
+  text-align: center;
+  font-size: medium;
+}
+.O {
+  font-size: 40px;
+  color: #f1097d;
+}
+
+@media (max-width: 767px) {
+  .O {
+    font-size: 20px;
+    color: #f1097d;
+  }
+  
+  .L {
+    font-size: 14px;
+  }
+}
